@@ -55,6 +55,6 @@ st.subheader('Datetime slider')
 
 start_time = st.slider(
      "When do you start?",
-     value=datetime(2024, 18, 10, 7, 00),
+     value=datetime(2024, 10, 18, 7, 00),
      format="MM/DD/YY - hh:mm")
 st.write("Start time:", start_time)
