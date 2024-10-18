@@ -58,3 +58,11 @@ start_time = st.slider(
      value=datetime(2024, 10, 18, 7, 00),
      format="MM/DD/YY - hh:mm")
 st.write("Start time:", start_time)
+
+st.header('st.selectbox')
+
+option = st.selectbox(
+     'What is your favorite color?',
+     ('Blue', 'Red', 'Green'))
+
+st.write('Your favorite color is ', option)
